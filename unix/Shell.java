@@ -123,10 +123,10 @@ class Shell {
     /** Quits THIS instance of the shell. */
    	private void quit() {
    		_out.flush();
-    	_out.close();
-    	_err.flush();
-    	_err.close();
-    	System.exit(0);
+    		_out.close();
+    		_err.flush();
+    		_err.close();
+    		System.exit(0);
    	}
 
     /** Writer on which to print prompts for input. */
