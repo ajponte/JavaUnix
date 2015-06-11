@@ -1,0 +1,5 @@
+Usage:
+
+--help: Displays a usage message
+--out <file.txt>:  appends all commands 
+					and output to file.txt

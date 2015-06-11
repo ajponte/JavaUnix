@@ -1,0 +1,4 @@
+Help for Unix:
+
+Enter any unix command to see the results!
+Enter quit() to quit this prompt.
