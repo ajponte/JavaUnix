@@ -1,5 +1,8 @@
 Usage:
 
+Welcome to the Java Interpreter.  Here are some 
+useful commands.
+
 --help: Displays a usage message
 --out <file.txt>:  appends all commands 
 					and output to file.txt

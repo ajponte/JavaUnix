@@ -8,7 +8,8 @@ import java.io.PrintWriter;
 import java.io.Writer;
 import java.io.IOException;
 
-/** A simple Unix interpreter.
+/** 
+ *  A simple Unix interpreter.
  *  @author Alan Ponte
  */
 
@@ -51,8 +52,13 @@ public class Main {
 		}
 	}
 
-	/** Prints the usage text to STDOUT. */
-	public static void usage() {
+       /** Prints the usage text to STDOUT. */
+       public static void usage() {
 		printHelpResource(USAGE, new PrintWriter(System.err));
-	}
+       }
+    
+    /** Performs a "graceful" exit from the interpreter. */
+     public static void exitGracefully() {
+        	System.exit(0);
+     } 
 }
