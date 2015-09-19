@@ -60,5 +60,30 @@ public class Main {
     /** Performs a "graceful" exit from the interpreter. */
      public static void exitGracefully() {
         	System.exit(0);
-     } 
+     }
+
+    /** Sorts A recusively. */
+    public static void sortArray(int[] a) {
+	if (a == null) {
+	    return;
+	}
+	if (a.length() == 1) {
+	    return a[0];
+	}
+	return sortArray(a, a.length() - 1);
+    }
+    
+    /** 
+     * Sorts the array A[0 ... END] such that 
+     * A[i] < A[j] for all i <= j.
+     */
+    public static void sortArray(int[] a, int end) {
+	if (a[0] == a[end]) {
+	    return a[0];
+	} else if (a[o] > a[end]) {
+	    int temp = a[0];
+	    a[0] = a[end];
+	    // Sort the rest foool
+	}
+    }
 }
