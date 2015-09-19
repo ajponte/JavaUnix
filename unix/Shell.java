@@ -11,6 +11,9 @@ import java.util.Scanner;
 
 import static unix.UnixException.error;
 
+/**
+ * Shell to execute commands.
+ */
 class Shell {
 	private static String HELP = "unix/Help.txt";
 	private static String VERSION = "JavaUnix v.001";
